@@ -5,4 +5,4 @@
 웹프로그램 실습을 위한 저장소입니다.
 
 ### 연락처
-email : nhh03hh@gmail.com
+- email : nhh03hh@gmail.com
