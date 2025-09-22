@@ -8,15 +8,22 @@
 <body>
     <h1 id="counter-output">counter : 0</h1>
     <button id="NHH-inc" > Inc</button>
+    <button id="NHH-dec" > Dec</button>
 
     <script>
         var counterOutput = document.getElementById("counter-output")
         var btnInc = document.getElementById("NHH-inc");
+        var btnDec = document.getElementById("NHH-dec");
         var counter = 0 //변수선언
 
         btnInc.addEventListener('click',()=>{
             console.log('click test' + counter)
             counter = counter + 1
+            counterOutput.innerText = "counter :" +counter
+        })
+        btnDec.addEventListener('click',()=>{
+            console.log('click test' + counter)
+            counter = counter - 1
             counterOutput.innerText = "counter :" +counter
         })
     </script>
